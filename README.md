@@ -9,7 +9,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://t.me/waka0waka" target="_blank">Telegram</a> | 
-  <a href="mailto:"vaolzavgorodnii@edu.hse.ru" target="_blank">Email</a>
+  <a href="mailto:vaolzavgorodnii@edu.hse.ru" target="_blank">Email</a>
 </p>
 
 <h3 align="left">Tech Stack:</h3>
