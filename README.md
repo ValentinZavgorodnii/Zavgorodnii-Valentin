@@ -26,7 +26,4 @@
 - 🎓 **HSE Studies:** Перехожу на 3 курс ОП «Аналитика в экономике».
 - 🔭 **Learning:** Углубляю навыки в эконометрике на Python и BI-инструментах.
 
----
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ValentinZavgorodnii&show_icons=true&theme=radical" alt="stats" />
-</p>
+
