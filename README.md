@@ -3,14 +3,13 @@
 <h3 align="center">Junior Data Analyst | Economics student at HSE</h3>
 
 <p align="center">
-  Я увлечен анализом данных и эконометрикой. 
-  Изучаю инструменты, которые превращают "сырые" цифры в бизнес-решения.
+  «Junior Data Analyst. Применяю эконометрику и Python для решения бизнес-задач. Перевожу язык данных на язык бизнеса».
 </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="ТВОЯ_ССЫЛКА_НА_TELEGRAM" target="_blank">Telegram</a> | 
-  <a href="mailto:ТВОЯ_ПОЧТА" target="_blank">Email</a>
+  <a href="https://t.me/waka0waka" target="_blank">Telegram</a> | 
+  <a href="mailto:"vaolzavgorodnii@edu.hse.ru" target="_blank">Email</a>
 </p>
 
 <h3 align="left">Tech Stack:</h3>
