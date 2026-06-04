@@ -1,4 +1,4 @@
-```markdown
+
 # Когортный анализ интернет-магазина (Retention & LTV)
 
 Расчёт удержания клиентов и кумулятивного LTV на данных транзакций e-commerce.
@@ -10,15 +10,15 @@
 Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook.
 
 ## Данные
-Источник: [Online Retail (UCI / Kaggle)](https://www.kaggle.com/datasets/hellbuoy/online-retail)  
+Источник: [Online Retail (UCI / Kaggle)](https://www.kaggle.com/datasets/vijayuv/onlineretail)  
 Период: декабрь 2010 – декабрь 2011. Лицензия ODbL.
 
 ## Запуск
-```bash
+
 pip install pandas matplotlib seaborn jupyter
 jupyter notebook cohort-retention-ltv.ipynb
 
-```
+
 
 Файл `OnlineRetail.csv` в той же директории.
 
@@ -53,6 +53,3 @@ jupyter notebook cohort-retention-ltv.ipynb
 
 ![Кумулятивный LTV](./ltv_heatmap.png)
 
-```
-
-```
