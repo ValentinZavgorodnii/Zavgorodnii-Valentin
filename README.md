@@ -1,29 +1,86 @@
-# Zavgorodnii-Valentin
-<h1 align="center">Hi 👋, I'm Zavgorodnii Valentin</h1>
-<h3 align="center">Junior Data Analyst | Economics student at HSE</h3>
+# Завгородний Валентин
 
-<p align="center">
-  «Junior Data Analyst. Применяю эконометрику и Python для решения бизнес-задач. Перевожу язык данных на язык бизнеса».
-</p>
+**Junior Data Analyst** | Студент ОП «Аналитика в экономике» НИУ ВШЭ — Санкт-Петербург
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://t.me/waka0waka" target="_blank">Telegram</a> | 
-  <a href="mailto:vaolzavgorodnii@edu.hse.ru" target="_blank">Email</a>
-</p>
+[![Telegram](https://img.shields.io/badge/Telegram-@waka0waka-blue?style=flat&logo=telegram)](https://t.me/waka0waka)
+[![Email](https://img.shields.io/badge/Email-zavgorodonijvalentin01@gmail.com-red?style=flat&logo=gmail)](mailto:zavgorodonijvalentin01@gmail.com)
 
-<h3 align="left">Tech Stack:</h3>
-<p align="left"> 
-  <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-  <a href="https://pandas.pydata.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
-  <a href="https://seaborn.pydata.org/" target="_blank"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
-  <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
-</p>
+---
 
-<h3 align="left">Current Focus:</h3>
-- 📈 **Building Portfolio:** Работаю над проектами по EDA, SQL и эконометрике.
-- 🎓 **HSE Studies:** Перехожу на 3 курс ОП «Аналитика в экономике».
-- 🔭 **Learning:** Углубляю навыки в эконометрике на Python и BI-инструментах.
+## Обо мне
 
+Применяю эконометрические методы и Python для решения реальных бизнес-задач. Моя специализация — превращение сырых данных в прикладные инсайты: от разведочного анализа и статистической проверки гипотез до расчёта продуктовых метрик и маркетинговой сегментации.
 
+Сейчас завершаю 2-й курс НИУ ВШЭ — Санкт-Петербург по направлению «Аналитика в экономике». В портфолио — 4 завершённых аналитических проекта, каждый из которых демонстрирует полный цикл работы с реальными датасетами.
+
+**Интересуюсь:** Data Science, продуктовой аналитикой, ML-инженерией.
+
+---
+
+## Проекты в портфолио
+
+### 1. Разведочный анализ данных и очистка
+*Датасет: Online Retail (Kaggle)*
+
+Реализован полный пайплайн предобработки: удаление выбросов по IQR, дедупликация, обработка пропусков, инженерия признаков (удельная стоимость, географические метрики, категоризация). Сформулированы и проверены 4 бизнес-гипотезы с использованием непараметрических статистических тестов.
+
+**Стек:** pandas, numpy, matplotlib, seaborn, scipy.stats
+
+---
+
+### 2. Когортный анализ и LTV
+*Датасет: Online Retail (Kaggle)*
+
+Построены когорты по месяцам первой покупки, рассчитаны Retention Rate и кумулятивный LTV на клиента. Выявлены сезонные аномалии (пик удержания 50% у когорты декабря 2010) и предложены маркетинговые рекомендации для улучшения удержания на 2–3 месяце.
+
+**Стек:** pandas, numpy, matplotlib, seaborn
+
+---
+
+### 3. Динамический RFM-анализ с матрицей переходов
+*Датасет: Online Retail (Kaggle)*
+
+Проведена сегментация клиентов по Recency, Frequency, Monetary с полноценным учётом Monetary в классификации. Построена матрица переходов между сегментами во времени (разделение данных по медианной дате). Выявлены критические точки оттока (50% новых клиентов уходят в Lost) и разработаны стратегии удержания для каждого сегмента.
+
+**Стек:** pandas, numpy, matplotlib, seaborn
+
+---
+
+### 4. A/B-тестирование: оптимизация конверсии лендинга
+*Датасет: Landing Page A/B Test (Kaggle)*
+
+Проведён полный цикл A/B-анализа: расчёт мощности (17 164 пользователя на группу), проверка целостности данных (удалены несоответствия и пересекающиеся пользователи), двухвыборочный Z-тест для пропорций, доверительные интервалы. Принято бизнес-решение на основе статистической и практической значимости.
+
+**Стек:** pandas, numpy, matplotlib, seaborn, statsmodels
+
+---
+
+## Технологический стек
+
+| Область | Технологии |
+|---------|------------|
+| **Программирование** | Python (продвинутый), SQL (средний, углубляю) |
+| **Анализ данных** | pandas, numpy, scipy, statsmodels |
+| **Визуализация** | matplotlib, seaborn |
+| **Статистика** | Проверка гипотез, A/B-тестирование, доверительные интервалы, непараметрические тесты |
+| **Обработка данных** | Очистка, дедупликация, агрегация, Feature Engineering |
+| **Инструменты** | Jupyter Notebook, Git |
+
+---
+
+## Образование
+
+**НИУ ВШЭ — Санкт-Петербург**  
+Бакалавриат «Аналитика в экономике»  
+2-й курс (2024–2028)
+
+**Ключевые дисциплины:** Математическая статистика, Теория вероятностей, Эконометрика, Программирование на Python, Анализ данных
+
+---
+
+## Текущие задачи
+
+- **Пополнение портфолио:** проекты по SQL и продвинутой эконометрике
+- **Углубление статистики:** совершенствование методов A/B-тестирования и дизайна экспериментов
+- **BI-инструменты:** изучение Tableau / Superset для создания дашбордов
+- **ML-инженерия:** изучение базового ML
