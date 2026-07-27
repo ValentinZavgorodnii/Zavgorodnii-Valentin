@@ -175,7 +175,7 @@ ORDER BY total_money DESC;
 
 
 
-SELECT * FROM rfm_data_mart
+SELECT * FROM rfm_data_mart;
 
 
 
@@ -205,4 +205,7 @@ WITH (
     HEADER true, 
     DELIMITER ','
 );
+
+
+
 
