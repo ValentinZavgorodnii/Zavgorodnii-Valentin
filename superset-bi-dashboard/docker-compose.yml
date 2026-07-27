@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  superset:
+    image: apache/superset:latest
+    container_name: superset_bi
+    ports:
+      - "8088:8088"
+    env_file:
+      - .env
+    # Настройка для доступа к локальному PostgreSQL с Mac
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - superset_home:/app/superset_home
+
+volumes:
+  superset_home:
