@@ -3,17 +3,18 @@ import pandas as pd
 
 
 def generator_fintech_data(n_users = 100000, effect_size = 15, correlation = 0.8, random_state = 42):
-    np.random.seed(random_state)
-    
+
+    rng = np.random.RandomState(random_state)
+
     mu, sigma = 6.0, 1.2
     
-    pre_exp_revenue = np.random.lognormal(mean=mu, sigma=sigma, size=n_users)
+    pre_exp_revenue = rng.lognormal(mean=mu, sigma=sigma, size=n_users)
     
-    groups = np.random.choice(['Control', 'Treatment'], size=n_users, p=[0.5, 0.5])
+    groups = rng.choice(['Control', 'Treatment'], size=n_users, p=[0.5, 0.5])
     
     noise_variance = np.var(pre_exp_revenue) * (1 - correlation ** 2)
     
-    noise = np.random.normal(loc=0, scale=np.sqrt(noise_variance), size=n_users)
+    noise = rng.normal(loc=0, scale=np.sqrt(noise_variance), size=n_users)
     
     exp_revenue = correlation * pre_exp_revenue + noise
     
@@ -30,6 +31,3 @@ def generator_fintech_data(n_users = 100000, effect_size = 15, correlation = 0.8
     })
     
     return df
-
-
-
